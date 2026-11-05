@@ -7,6 +7,8 @@ A 2D multi-layer ASCII game engine written in C++20. The world is drawn as a gri
 
 The current build generates a procedural world with three layers (Sky, Ground, Underground) and lets you move around and look through it.
 
+![Kwirbia showing the Ground layer at 12x12 zoom](screenshot.png)
+
 ## Status
 
 Early development. The world view, zoom, layer switching, HUD and perf overlay work. The rendering pipeline is being moved to the GPU; see [`TODO.md`](TODO.md) for the roadmap.

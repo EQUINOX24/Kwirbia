@@ -14,7 +14,7 @@
 
 int main() {
     try {
-        SDLApp app("TextEngine - 2D Multi-Layer ASCII Engine", 1400, 800);
+        SDLApp app("Kwirbia - A world, written cell by cell");
         Renderer renderer(SDLApp::FONT_SIZES); // Declared after app: GL objects die before the context
         DisplayGrid grid(app.grid_width(), app.grid_height());
         World world(1024, 1024, -1);
